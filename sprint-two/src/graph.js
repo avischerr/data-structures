@@ -1,7 +1,12 @@
+// undirected graph (symmetrical relationship between nodes)
+// pseudoclassical instantiation (this.properties inside function, methods assigned to protoype, create new instance using new)
 
+// what does the data structure look like? an object with node objects inside?
 
 // Instantiate a new graph
 var Graph = function() {
+  // use this.properties if needed
+  this.storage = {};
 };
 
 // Add a node to the graph, passing in the node's value.
@@ -34,6 +39,13 @@ Graph.prototype.forEachNode = function(cb) {
 
 /*
  * Complexity: What is the time complexity of the above functions?
+ add node:
+ contains:
+ remove node:
+ has edge:
+ add edge:
+ remove edge:
+ for each node:
  */
 
 
