@@ -60,7 +60,9 @@ var LinkedList = function() {
       current = current.next;
     }
 
+
     return found;
+
   };
 
   return list;
